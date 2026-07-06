@@ -1,4 +1,5 @@
 {
+  "id": "https://matiaslsf.github.io/booktrack-app/",
   "name": "BookTrack - Registro de Lectura",
   "short_name": "BookTrack",
   "description": "Registra tus libros, avance de lectura y metas anuales de lectura.",
@@ -9,6 +10,8 @@
   "background_color": "#1a1410",
   "theme_color": "#1a1410",
   "lang": "es",
+  "categories": ["productivity", "lifestyle", "books"],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -27,6 +30,29 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot1.png",
+      "sizes": "824x1830",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tu biblioteca con metas de lectura"
+    },
+    {
+      "src": "screenshots/screenshot2.png",
+      "sizes": "824x1830",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Modo claro"
+    },
+    {
+      "src": "screenshots/screenshot3.png",
+      "sizes": "824x1830",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Pantalla de inicio"
     }
   ]
 }

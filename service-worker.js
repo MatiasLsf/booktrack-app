@@ -4,7 +4,10 @@ const ASSETS_TO_CACHE = [
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './icons/icon-512-maskable.png'
+  './icons/icon-512-maskable.png',
+  './screenshots/screenshot1.png',
+  './screenshots/screenshot2.png',
+  './screenshots/screenshot3.png'
 ];
 
 self.addEventListener('install', (event) => {
